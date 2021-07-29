@@ -18,6 +18,12 @@ ro.vendor.audio.soundtrigger.xatx.vop.level=0
 ro.vendor.audio.soundtrigger=sva
 ro.vendor.audio.voice.volume.boost=manual
 
+# Display
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
 # Fingerprint
 vendor.lineage.fod.enable=true
 
