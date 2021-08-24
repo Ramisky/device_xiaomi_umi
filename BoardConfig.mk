@@ -15,8 +15,8 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_umi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_umi
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_umi
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_umi
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/umi_defconfig
