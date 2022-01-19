@@ -14,6 +14,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from umi device
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := aosp_umi
 PRODUCT_DEVICE := umi
 PRODUCT_MANUFACTURER := Xiaomi
