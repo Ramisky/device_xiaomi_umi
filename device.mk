@@ -25,5 +25,8 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Inherit from firmware repo
+$(call inherit-product, vendor/xiaomi-firmware/umi/Android.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
