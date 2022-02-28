@@ -69,4 +69,4 @@ def OTA_InstallEnd(info):
   for fw in fw_map.keys():
       for part in fw_map[fw]:
           fw_cmd += 'package_extract_file("install/firmware-update/{}", "/dev/block/bootdevice/by-name/{}");\n'.format(fw, part)
-  info.script.AppendExtra(fw_cmd)
+#  info.script.AppendExtra(fw_cmd)

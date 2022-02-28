@@ -30,7 +30,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from firmware repo
-$(call inherit-product, vendor/xiaomi-firmware/umi/firmware.mk)
+#$(call inherit-product, vendor/xiaomi-firmware/umi/firmware.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
